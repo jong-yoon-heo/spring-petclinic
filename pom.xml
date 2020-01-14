@@ -131,8 +131,8 @@
 
   <build>
     <plugins>
-      <!-- run ./mvnw spring-javaformat:apply to apply -->
-      <!--
+<!-- run ./mvnw spring-javaformat:apply to apply -->
+<!--
       <plugin>
         <groupId>io.spring.javaformat</groupId>
         <artifactId>spring-javaformat-maven-plugin</artifactId>
@@ -146,7 +146,7 @@
           </execution>
         </executions>
       </plugin>
-      -->
+-->
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
