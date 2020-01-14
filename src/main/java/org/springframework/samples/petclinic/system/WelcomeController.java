@@ -29,6 +29,7 @@ class WelcomeController {
 
 	@GetMapping("/")
 	public String welcome() {
+        // AddLogtest
         log.debug("-------------------call URL home-------------------");
 		return "welcome";
 	}
