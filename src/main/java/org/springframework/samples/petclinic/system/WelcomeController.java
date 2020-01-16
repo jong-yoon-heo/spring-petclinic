@@ -29,7 +29,7 @@ class WelcomeController {
 
 	@GetMapping("/")
 	public String welcome() {
-        // AddLogtest
+        // Add log 2020-01-15
         log.debug("-------------------call URL home-------------------");
 		return "welcome";
 	}
