@@ -30,7 +30,7 @@ class WelcomeController {
 	@GetMapping("/")
 	public String welcome() {
         // Add log 2020-01-15 root url logging
-        log.debug("-------------------call URL home-------------------");
+        log.debug("-------------------call URL home[][][]-------------------");
 		return "welcome";
 	}
 
